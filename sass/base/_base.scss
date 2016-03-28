@@ -10,8 +10,9 @@ body {
 		size: $body-font-size;
 	}
 	line-height: 1.6;
+	background-color: #F6F6F6;
 }
-h1, h2, h3, h4, h5, h6 {;
+h1, h2, h3, h4, h5, h6 {
 	line-height: 1.1;
 	margin: 0 0 15px;
 }
@@ -31,8 +32,8 @@ h2 {
 	color: #8c8c8c;
 }
 h3 {
-	font-size: $fontsize-20;
-	font-family: $font-secondary;
+	font-size: $fontsize-16;
+	font-family: $font-third;
 	color:#404041;
 }
 a {
