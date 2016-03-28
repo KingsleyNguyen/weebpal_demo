@@ -10,30 +10,31 @@ body {
 		size: $body-font-size;
 	}
 	line-height: 1.6;
-	background: url(../images/bg-body.jpg) 0 0 repeat #f0f0f0;
 }
-h1, h2, h3, h4, h5, h6 {
-	color: $black-color;
+h1, h2, h3, h4, h5, h6 {;
 	line-height: 1.1;
 	margin: 0 0 15px;
 }
 h1 {
 	font-weight: 300;
+	color:#404041;
+	font:{
+		family:$font-body;
+		size:$fontsize-40;
+	}
 }
 h1, h2, h3, h4, h5, h6 {
 }
-h1 {
-	font-size: $fontsize-30;
-}
 h2 {
-	font-size: $fontsize-24;
-	font-family: $font-secondary;
+	font-size:$fontsize-20;
+	font-family: $font-body;
+	color: #8c8c8c;
 }
 h3 {
 	font-size: $fontsize-20;
 	font-family: $font-secondary;
+	color:#404041;
 }
-
 a {
 	color: $link-color;
 	outline: none;

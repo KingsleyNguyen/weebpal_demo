@@ -1,49 +1,82 @@
 /* headline */
 .headline{
-	background: $black-color;
-	color: #807d7c;
-	font-size: $fontsize-12;
-	p{
-		margin-bottom: 0;
-	}
-	.datetime{
-		padding-top: 9px;
-	}
-	.menu{
-		padding-left: 0;
-		margin-bottom: 0;
-		li{
-			display: block;
-			float: left;
-			border-right: 1px solid #373737;
-			list-style-type: none;
-			a{
-				display: inline-block;
-				padding: 10px 15px;
-				line-height: 16px;
-				text-transform: uppercase;
-				color: #807d7c;
-				&:hover, &:focus{
-					color: $white-color;
+	background: $blue-color;
+
+	.container{
+	padding:0px;
+		ul{
+			li{
+				padding-bottom:15px;
+				padding-top: 15px;
+				.noneborder{
+					border-right:none;
+					padding-right:0px;
 				}
-				.fa{
-					font-size: $fontsize-16;
+				padding-right:15px;
+				a{
+					color:$white-color;
+					border-right: 1px solid $white-color;
+					padding:0px;
+					font-size:$fontsize-14;
+					padding-right: 10px;
+					font-family:$font-body;
+					line-height:10px;
+					&:hover{
+						background-color:inherit;
+						text-decoration: underline; 
+					 	}
+					}
+			}
+			.cart{
+				padding-right:0px;
+			}
+			.drupalitem{
+				background-color:#e2605a;
+				&:hover{
+					background-color: #D5524C;
 				}
+				padding-right:15px;
+				a{
+					padding-left:8px;
+					padding-right:2px;
+					height:15px;
+					&:hover{
+						text-decoration: none; 
+					 	}
+				}
+			}
+			.faq{
+				a{				
+					padding-left:15px;
+				}
+
 			}
 		}
 	}
 }
+
 /* header */
 .header{
-	background: $white-color;
+	border-bottom: 1px solid #E5E5E5 ;
+	height:60px;
 	.container{
-		min-height: 88px;
-		padding-top: 15px;
-		padding-bottom: 15px;
+		padding:0px;
+		ul{
+			padding:0px;
+			li{
+					height: 60px;
+					border-right: 1px solid #E5E5E5 ;
+				a{
+					padding-left:5px;
+					color:#414141 ;
+					padding-top: 18px;
+					padding-bottom: 18px;
+				}
+			}
+		}
 	}
 	.logo{
-		margin: 0;
-		padding-top: 5px;
+			margin-top:15px;
 	}
 }
 .main-menu{
