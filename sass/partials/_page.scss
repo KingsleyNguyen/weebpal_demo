@@ -71,5 +71,17 @@
 	border-top: 1px solid #E5E5E5 ;
 	.container{
 		margin-top:60px;
+		h3{
+			font-family:$font-primary;
+			font-size:20px;
+			color:#070707;
+		}
+		.linkview {
+			text-decoration: none;
+			color:#0e76bc;
+			padding: 0px;
+			padding-left:20px;
+			padding-top:2px;
+		}
 	}
 }
