@@ -3,22 +3,18 @@
 	background: $blue-color;
 
 	.container{
-	padding:0px;
+	padding-top:10px;
+	padding-bottom:10px;
 		ul{
 			li{
-				padding-bottom:15px;
-				padding-top: 15px;
-				.noneborder{
-					border-right:none;
-					padding-right:0px;
-				}
-				padding-right:15px;
+				padding-left:10px;
+				padding-right:10px;
+				border-right:1px solid #fff;
+
 				a{
 					color:$white-color;
-					border-right: 1px solid $white-color;
 					padding:0px;
 					font-size:$fontsize-14;
-					padding-right: 10px;
 					font-family:$font-body;
 					line-height:10px;
 					&:hover{
@@ -27,27 +23,28 @@
 					 	}
 					}
 			}
+			.noneborder{
+					border-right:none;
+					padding-right:0px;
+				}
 			.cart{
 				padding-right:0px;
+				padding-bottom:-1px;
 			}
 			.drupalitem{
 				background-color:#e2605a;
+				margin-top: -15px;
+				margin-bottom: -14px;
 				&:hover{
 					background-color: #D5524C;
 				}
 				padding-right:15px;
 				a{
-					padding-left:8px;
-					padding-right:2px;
-					height:15px;
+					padding-top:15px;
+					padding-bottom:14px;
 					&:hover{
 						text-decoration: none; 
 					 	}
-				}
-			}
-			.faq{
-				a{				
-					padding-left:15px;
 				}
 
 			}
@@ -58,52 +55,29 @@
 /* header */
 .header{
 	border-bottom: 1px solid #E5E5E5 ;
-	height:60px;
 	.container{
 		padding:0px;
 		ul{
 			padding:0px;
+			.active{
+				background-color:white;
+			}
 			li{
-					height: 60px;
-					border-right: 1px solid #E5E5E5 ;
+				border-right: 1px solid #E5E5E5 ;
 				a{
-					padding-left:5px;
-					color:#414141 ;
-					padding-top: 18px;
-					padding-bottom: 18px;
+					padding:22px;
+					color:#414141;
+					font-family:$font-primary;
+					font-size:$body-font-size;
+					&:hover{
+					background-color:inherit;
+					background-color:white;
+				}
 				}
 			}
 		}
-	}
 	.logo{
 			margin-top:15px;
-	}
-}
-.main-menu{
-	float: right;
-	padding-top: 19px;
-	ul{
-		padding-left: 0;
-		margin-bottom: 0;
-	}
-	li{
-		list-style-type: none;
-		float: left;
-		margin-left: 25px;
-		a{
-			display: inline-block;
-			text-transform: uppercase;
-			color: $black-color;
-			font-size: $fontsize-13;
-			font-family: 'open_sansregular';
-			&:hover, &:focus{
-				color: $link-color;
-			}
-		}
-		&.active{
-			a{
-				color: $link-color;
-			}
 		}
 	}
 }
